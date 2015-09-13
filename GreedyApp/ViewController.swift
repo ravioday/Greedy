@@ -13,13 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Add the huffman controller
+        let huffmanController = HuffmanController()
+        addChildViewController(huffmanController)
+        huffmanController.didMoveToParentViewController(self)
+        view.addSubview(huffmanController.view)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 

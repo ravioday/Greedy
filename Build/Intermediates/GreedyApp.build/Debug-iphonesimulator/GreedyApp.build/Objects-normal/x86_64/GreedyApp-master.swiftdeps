@@ -1,5 +1,6 @@
 version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
-options: "145d125d57e9db850c1fe315280f9941"
+options: "431311559fd188e293074b5f8b6acfc0"
 inputs: 
 - "/Users/rjoshi/Desktop/GreedyApp/GreedyApp/ViewController.swift"
+- "/Users/rjoshi/Desktop/GreedyApp/GreedyApp/HuffmanController.swift"
 - "/Users/rjoshi/Desktop/GreedyApp/GreedyApp/AppDelegate.swift"

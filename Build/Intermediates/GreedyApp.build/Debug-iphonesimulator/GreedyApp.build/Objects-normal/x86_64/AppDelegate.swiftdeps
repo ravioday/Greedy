@@ -4,28 +4,28 @@ provides:
 nominals:
 - "C9GreedyApp11AppDelegate"
 class-members:
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "applicationDidEnterBackground"
+- "applicationDidBecomeActive"
 - "application"
 - "applicationWillEnterForeground"
 - "window"
-- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
 top-level:
-- "UIApplicationDelegate"
-- "NSObject"
 - "Bool"
+- "NSObject"
+- "UIApplicationDelegate"
 - "UIResponder"
+- "AnyObject"
 - "UIWindow"
 - "UIApplication"
-- "AnyObject"
 - !private "BooleanLiteralType"
 member-access:
-- "PSs9AnyObject"
 - "CSo8NSObject"
+- "PSs9AnyObject"
 - "PSo21UIApplicationDelegate"
-- "C9GreedyApp11AppDelegate"
 - "CSo11UIResponder"
+- "C9GreedyApp11AppDelegate"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/Swift.swiftmodule"
